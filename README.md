@@ -24,4 +24,25 @@ Usar Gitflow tiene varias ventajas:
   1. Usuario 1
 
 Empezamos creando primero el repositorio en GitHub:
+
   ![Creación repositorio.](./us1_creacionRepo.png)
+
+Procedemos a clonar el repositorio:
+
+  ![Clonación repositorio.](./us1_clonRepo.png)
+
+El usuario 1 crea la rama *develop* y actualiza el repositorio remoto, poniendo la rama *develop* como rama de referéncia.
+
+  ![Nueva rama.](./us1_checkoutbDevelop.png)
+  ![Push a repo.](./us1_pushRepo.png) 
+
+Inicia gitFlow:
+
+  ![gitFlow init.](./us1_gitFlowinit.png)
+
+Creamos proyecto con la estructura del boilerplate asignada y creamos el index.html ajustandonos a las necesidades del cliente y procedemos a actualizar el repositorio remoto.
+
+  2. Usuario 2
+
+
+
