@@ -21,7 +21,9 @@ Usar Gitflow tiene varias ventajas:
 
 ## Actividades
 
-  1. Usuario 1
+  ### 1. Usuario 1
+
+  **El Usuario 1 se encargará de crear el repositorio e implementará la estructura incial del proyecto.**
 
 Empezamos creando primero el repositorio en GitHub:
 
@@ -42,7 +44,67 @@ Inicia gitFlow:
 
 Creamos proyecto con la estructura del boilerplate asignada y creamos el index.html ajustandonos a las necesidades del cliente y procedemos a actualizar el repositorio remoto.
 
-  2. Usuario 2
+  ### 2. Usuario 2
+
+  **El usuario 2 creará dos secciones nuevas y las implementará como dos features cada sección.**
+
+Empezamos clonado el repositorio:
+
+  ![Clonación repositorio en local Usuario 2.](./us2_clonRepo.png)
+
+Una vez clonado iniciamos gitFlow:
+
+  ![gitFlow init](./us2_gitFlow%20init.png)
+
+ Iniciamos una nueva feature, una vez iniciada, ara las tareas solicitadas y hará commit con estas modificaciones.
+
+  ![Nueva feature](./us2_featureStart.png)
+
+Un vez hechas las tareas, se procede a publicar la nueva feature hacia el repositorio:
+
+  ![gitFlow publish.](./us2_gitFlow%20publish%20contingutHTML.png)
+
+Hacemos lo mismo con la segunda feature solicitada:
+
+  ![gitFlow feature 2.](./us2_feature2.png)
+
+Una vez publicado, nos vamos al repositorio para hacer **merge** con la rama *develop*
+
+  ![gitFlow feature 2 merge.]
+
+
+  ### 3. Usuario 3
+
+  **El usuario 3 creará una nueva feature y creará un release**
+
+Empezamos clonado el repositorio, iniciamos gitFlow y abrimos nueva feature, para posteriormente publicarla en repositorio haciendo luego merge con la rama *develop*.
+
+  ![gitFlow feature 3.](./us3_nuevaFeature.png)
+
+Creamos la pull request
+
+  ![gitFlow pull request.](./us3_pullreques.png)
+
+Posterioremente creamos la release v1.0 en la rama *main*.
+
+  ![nueva release.](./us3_release%20v1.png)
+
+  ### 4. Hotfix
+
+  **El usuario 1 creará un *hotfix* sobre las secciones del usuario 2**
+
+Empezamos creando una rama de hotfix.
+
+  ![hotfix start.](./us1_hotfix1.png)
+
+Hacemos las modificaciones y hacemos el commit correspondiente.
+
+  ![hotfix commit.](./us1_hotfix2.png)
+
+Posteriormente hacemos merge sobre la rama develop y luego lo pasamos a la rama *main*.
+
+  ![hotfix merge.](./us1_hotfix3.png)
+
 
 
 
